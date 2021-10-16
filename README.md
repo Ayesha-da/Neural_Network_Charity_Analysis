@@ -24,11 +24,15 @@ What variable(s) are neither targets nor features, and should be removed from th
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 the next layer of neurons can evaluate higher order interactions between weighted variables and identify complex, nonlinear relationships across the entire dataset. These additional layers can observe and weight interactions between clusters of neurons across the entire dataset, which means they can identify and account for more information than any number of neurons in a single hidden layer.
+![layer](https://user-images.githubusercontent.com/84524153/137595873-4cb75f3b-480d-4dc9-b0b9-6ceb2cf6a2ed.png)
+![layer_output](https://user-images.githubusercontent.com/84524153/137595879-1227379b-f962-46c9-9425-0d8af1ed3c2c.png)
 
 Were you able to achieve the target model performance?
 
 What step did you take to try and increase model performance?
+![kerasturner](https://user-images.githubusercontent.com/84524153/137595855-70bc51e4-354f-4d34-9e33-b95db51efe09.png)
 
-![layer](https://user-images.githubusercontent.com/84524153/137593777-2eed64f6-97eb-4d43-8496-eb6985ce365e.png)
+![kerasturner_output](https://user-images.githubusercontent.com/84524153/137595861-403b99c4-5dba-4f16-8391-3b05998dbfc5.png)
+
 
 ## Summary:
