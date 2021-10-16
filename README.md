@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 ## Overview of the loan prediction risk analysis:
 To create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
-
+To design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. determining the number of neurons and layers in your model. compile, train, and evaluate binary classification model to calculate the model’s loss and accuracy.
 ## Results:
 
 ### Data Preprocessing
