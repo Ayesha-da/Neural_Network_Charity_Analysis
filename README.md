@@ -11,27 +11,27 @@ To design a neural network and create a binary classification model that can pre
 ### Data Preprocessing
 - What variable(s) are considered the target(s) for your model?
 
- IS_SUCCESSFUL feature is considered the target of the model.
+   "Is_successful" feature is considered the target of the model.
   
 ![feature2](https://user-images.githubusercontent.com/84524153/137585474-59dd988d-2c10-497d-af98-ca589125c29a.png)
 
 - What variable(s) are considered to be the features for your model?
 
-APPLICATION_TYPE,AFFILIATION,CLASSIFICATION,USE_CASE,ORGANIZATION	,STATUS,INCOME_AMT,SPECIAL_CONSIDERATIONS,ASK_AMT are considered features of the model.
+  Application_type, Affiliation, Classification, Use_case, Organization, Status, Income_amt, Special_considerations, Ask_amt are considered features of the model.
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 
-EIN and NAME are removed from the features.
+  EIN and NAME are removed from the features.
 
-![feature1](https://user-images.githubusercontent.com/84524153/137585460-bc85432c-837d-4e26-b92f-33a7862983bc.png)
+![feature1](https://user-images.githubusercontent.com/84524153/137603247-5f048e8f-3114-410f-bfd2-0f82ad231261.png)
 
 ### Compiling, Training, and Evaluating the Model
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 ##### Neurons and Layers
-Three layers were selected, first one with 9 neurons, second one with 7 neurons and third one with 5 neurons.
+Two layers were selected, first one with 80 neurons, second one with 30 neurons.
 
-Neurond are added so there is a distributed effort to find optimal weights and each neuron can focus on different features to identify nonlinear effects and so is less likely to fixate on complex variables
+Neurons are added so there is a distributed effort to find optimal weights and each neuron can focus on different features to identify nonlinear effects and so is less likely to fixate on complex variables
 
 These additional layers are added so they can observe and weight interactions between clusters of neurons across the entire dataset, which means they can identify and account for more information than any number of neurons in a single hidden layer.
 
@@ -47,8 +47,17 @@ Sigmoid function is used since this function is differentiable and output values
 ![layer_output](https://user-images.githubusercontent.com/84524153/137595879-1227379b-f962-46c9-9425-0d8af1ed3c2c.png)
 
 - Were you able to achieve the target model performance?
-  The model failtarget performance of 75%
+
+  The model failed to reach the target performance of 75%
+  
 - What step did you take to try and increase model performance?
+ 
+   ###### The hidden layers were increased and the nodes for each layer is adjusted.
+   ###### Different activation function combinations were used on the model.
+   ###### Ran the kerastuner search for best hyperparameters to evaluate best model against full test data.
+   ###### Optimized the features for different combinations such as  type of organization, special considerations,use cases and ask amount.
+ 
+ ###### kerastuner search
 ![kerasturner](https://user-images.githubusercontent.com/84524153/137595855-70bc51e4-354f-4d34-9e33-b95db51efe09.png)
 
 ![kerasturner_output](https://user-images.githubusercontent.com/84524153/137595861-403b99c4-5dba-4f16-8391-3b05998dbfc5.png)
