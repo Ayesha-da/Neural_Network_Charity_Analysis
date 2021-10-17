@@ -45,7 +45,7 @@ Hidden layers are activated using "relu" and "tanh" functions and the output lay
 
 ###### * Sigmoid function is used since this function is differentiable and output values are bound between 0 and 1, normalizing the output of each neuron.
 
-![layer](https://user-images.githubusercontent.com/84524153/137595873-4cb75f3b-480d-4dc9-b0b9-6ceb2cf6a2ed.png)
+![layer](https://user-images.githubusercontent.com/84524153/137606522-2181d916-1326-4a68-af85-1d465ea53bc3.png)
 ![layer_output](https://user-images.githubusercontent.com/84524153/137595879-1227379b-f962-46c9-9425-0d8af1ed3c2c.png)
 
 - #### Were you able to achieve the target model performance?
