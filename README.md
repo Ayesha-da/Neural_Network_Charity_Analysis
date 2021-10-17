@@ -29,7 +29,7 @@ To design a neural network and create a binary classification model that can pre
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 ##### Neurons and Layers
-Two layers were selected, first one with 80 neurons, second one with 30 neurons.
+Three layers were added, first one with 40 neurons, second one with 30 neurons and third layer with 20 neurons.
 
 Neurons are added so there is a distributed effort to find optimal weights and each neuron can focus on different features to identify nonlinear effects and so is less likely to fixate on complex variables
 
@@ -37,9 +37,11 @@ These additional layers are added so they can observe and weight interactions be
 
 ##### Activation function
 
-Hidden layers are activated using "relu" function and the output layer with "sigmoid" function.
+Hidden layers are activated using "relu" and "tanh" functions and the output layer with "sigmoid" function.
 
 Relu function is used since it is simple, fast, and empirically it seems to work well.
+
+Tanh function is both non-linear and differentiable which are good characteristics for activation function.
 
 Sigmoid function is used since this function is differentiable and output values are bound between 0 and 1, normalizing the output of each neuron.
 
