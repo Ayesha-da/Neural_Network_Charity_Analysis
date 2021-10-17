@@ -52,15 +52,19 @@ Sigmoid function is used since this function is differentiable and output values
   
 - What step did you take to try and increase model performance?
  
-   ###### The hidden layers were increased and the nodes for each layer is adjusted.
+   ###### The hidden layers were increased and the nodes for each layer is adjusted to use two to three times as many neurons as there are input features.
    ###### Different activation function combinations were used on the model.
    ###### Ran the kerastuner search for best hyperparameters to evaluate best model against full test data.
    ###### Optimized the features for different combinations such as  type of organization, special considerations,use cases and ask amount.
+   ###### Increase the number of training epochs.
  
  ###### kerastuner search
 ![kerasturner](https://user-images.githubusercontent.com/84524153/137595855-70bc51e4-354f-4d34-9e33-b95db51efe09.png)
 
 ![kerasturner_output](https://user-images.githubusercontent.com/84524153/137595861-403b99c4-5dba-4f16-8391-3b05998dbfc5.png)
 
-
 ## Summary:
+This neural network model is underfitting and does not meet performance expectations.The model has accuracy of 0.726 and loss is at 0.55. Hyperparameters were altered to increase desired performance and still couldn't reach the target model performance.More training data might help decrease the loss and increase the accuracy of the model.
+
+![accuracy_loss](https://user-images.githubusercontent.com/84524153/137605695-5a7ca8f5-4f3d-4333-886c-dc106f112bd9.png)
+#### Recommendation:
