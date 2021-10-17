@@ -58,7 +58,7 @@ Hidden layers are activated using "relu" and "tanh" functions and the output lay
    ###### * Different activation function combinations were used on the model.
    ###### * Ran the kerastuner search for best hyperparameters to evaluate best model against full test data.
    ###### * Optimized the features for different combinations such as  type of organization, special considerations,use cases and ask amount.
-   ###### * Increase the number of training epochs.
+   ###### * Increased the number of training epochs.
  
  ###### kerastuner search
 ![kerasturner](https://user-images.githubusercontent.com/84524153/137595855-70bc51e4-354f-4d34-9e33-b95db51efe09.png)
