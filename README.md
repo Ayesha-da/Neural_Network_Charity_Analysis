@@ -68,3 +68,4 @@ This neural network model is underfitting and does not meet performance expectat
 
 ![accuracy_loss](https://user-images.githubusercontent.com/84524153/137605695-5a7ca8f5-4f3d-4333-886c-dc106f112bd9.png)
 #### Recommendation:
+ Logistic regression model,Support Vector Machine and Random forest classifiers were used on the given dataset but none of them could perform better than the neural network    model.Deep Learning Model is recommended for the given data with increased training data.
