@@ -52,11 +52,11 @@ Sigmoid function is used since this function is differentiable and output values
   
 - What step did you take to try and increase model performance?
  
-   ###### The hidden layers were increased and the nodes for each layer is adjusted to use two to three times as many neurons as there are input features.
-   ###### Different activation function combinations were used on the model.
-   ###### Ran the kerastuner search for best hyperparameters to evaluate best model against full test data.
-   ###### Optimized the features for different combinations such as  type of organization, special considerations,use cases and ask amount.
-   ###### Increase the number of training epochs.
+   ###### * The hidden layers were increased and the nodes for each layer is adjusted to use two to three times as many neurons as there are input features.
+   ###### * Different activation function combinations were used on the model.
+   ###### * Ran the kerastuner search for best hyperparameters to evaluate best model against full test data.
+   ###### * Optimized the features for different combinations such as  type of organization, special considerations,use cases and ask amount.
+   ###### * Increase the number of training epochs.
  
  ###### kerastuner search
 ![kerasturner](https://user-images.githubusercontent.com/84524153/137595855-70bc51e4-354f-4d34-9e33-b95db51efe09.png)
@@ -68,4 +68,4 @@ This neural network model is underfitting and does not meet performance expectat
 
 ![accuracy_loss](https://user-images.githubusercontent.com/84524153/137605695-5a7ca8f5-4f3d-4333-886c-dc106f112bd9.png)
 #### Recommendation:
- Logistic regression model,Support Vector Machine and Random forest classifiers were used on the given dataset but none of them could perform better than the neural network    model.Deep Learning Model is recommended for the given data with increased training data.
+ Logistic regression model,Support Vector Machine and Random forest classifiers were used on the given dataset but none of them could perform better than the neural network    model.Deep Learning Model is recommended with an increase in  training data.
