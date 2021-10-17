@@ -9,17 +9,17 @@ To design a neural network and create a binary classification model that can pre
 
 
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
+#### - What variable(s) are considered the target(s) for your model?
 
    "Is_successful" feature is considered the target of the model.
   
 ![feature2](https://user-images.githubusercontent.com/84524153/137585474-59dd988d-2c10-497d-af98-ca589125c29a.png)
 
-- What variable(s) are considered to be the features for your model?
+#### - What variable(s) are considered to be the features for your model?
 
   Application_type, Affiliation, Classification, Use_case, Organization, Status, Income_amt, Special_considerations, Ask_amt are considered features of the model.
 
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+#### - What variable(s) are neither targets nor features, and should be removed from the input data?
 
   EIN and NAME are removed from the features.
 
@@ -27,7 +27,7 @@ To design a neural network and create a binary classification model that can pre
 
 ### Compiling, Training, and Evaluating the Model
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+#### - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 ##### Neurons and Layers
 Three layers were added, first one with 40 neurons, second one with 30 neurons and third layer with 20 neurons.
 
@@ -48,11 +48,11 @@ Hidden layers are activated using "relu" and "tanh" functions and the output lay
 ![layer](https://user-images.githubusercontent.com/84524153/137595873-4cb75f3b-480d-4dc9-b0b9-6ceb2cf6a2ed.png)
 ![layer_output](https://user-images.githubusercontent.com/84524153/137595879-1227379b-f962-46c9-9425-0d8af1ed3c2c.png)
 
-- Were you able to achieve the target model performance?
+#### - Were you able to achieve the target model performance?
 
   The model failed to reach the target performance of 75%
   
-- What step did you take to try and increase model performance?
+#### - What step did you take to try and increase model performance?
  
    ###### * The hidden layers were increased and the nodes for each layer is adjusted to use two to three times as many neurons as there are input features.
    ###### * Different activation function combinations were used on the model.
