@@ -39,11 +39,11 @@ These additional layers are added so they can observe and weight interactions be
 
 Hidden layers are activated using "relu" and "tanh" functions and the output layer with "sigmoid" function.
 
-Relu function is used since it is simple, fast, and empirically it seems to work well.
+* Relu function is used since it is simple, fast, and empirically it seems to work well.
 
-Tanh function is both non-linear and differentiable which are good characteristics for activation function.
+* Tanh function is both non-linear and differentiable which are good characteristics for activation function.
 
-Sigmoid function is used since this function is differentiable and output values are bound between 0 and 1, normalizing the output of each neuron.
+* Sigmoid function is used since this function is differentiable and output values are bound between 0 and 1, normalizing the output of each neuron.
 
 ![layer](https://user-images.githubusercontent.com/84524153/137595873-4cb75f3b-480d-4dc9-b0b9-6ceb2cf6a2ed.png)
 ![layer_output](https://user-images.githubusercontent.com/84524153/137595879-1227379b-f962-46c9-9425-0d8af1ed3c2c.png)
